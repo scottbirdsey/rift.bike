@@ -46,12 +46,6 @@ body {
 	font-family: "Financier";
 }
 
-@media (max-width: 600px) {
-	body {
-		font-size: .7rem;
-	}
-}
-
 div.main {
 	display: flex;
 	height: 100%;
@@ -66,7 +60,7 @@ div > div {
 	background: #191919;
 	padding: 1em;
     transform: skew(0deg, 2deg);
-    max-width: 19rem;
+    max-width: 20rem;
 }
 
 svg {
@@ -99,6 +93,10 @@ a {
 	margin-top: .5rem;
 
 }
+
+.separator {
+	color: gray;
+}
 .arrow {
 	font-size: .8rem;
     vertical-align: middle;
@@ -107,22 +105,22 @@ a {
 
 @keyframes dot {
     0%   {transform: skew(-1deg, -1deg);}
-    25%  {transform: skew(0deg, -.5deg);}
+    25%  {transform: skew(0deg, .5deg);}
     50%  {transform: skew(.25deg, -.75deg);}
-    80%  {transform: skew(0deg, -.5deg);}
+    80%  {transform: skew(-.5deg, -1.5deg);}
     100% {transform: skew(-1deg, -1deg);}
 }
 
 @keyframes arrow {
     0%   {transform: skew(.5deg, .5deg);}
-    40%  {transform: skew(1deg, 0deg);}
-    80%  {transform: skew(-.5deg, .4deg);}
+    40%  {transform: skew(1.5deg, 0deg);}
+    80%  {transform: skew(-.5deg, .7deg);}
     100% {transform: skew(.5deg, .5deg);}
 }
 
 .st9 {
     animation-name: dot;
-    animation-duration: 7s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
