@@ -28,6 +28,14 @@
   font-style: normal;
 }
 
+h1 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5rem;
+	color: #039b75;
+	margin: 0;
+}
+
+
 * {
 	box-sizing: border-box;
 }
@@ -38,9 +46,27 @@ body {
 	font-family: "Financier";
 }
 
-div {
+@media (max-width: 500px) {
+	body {
+		font-size: .7rem;
+	}
+}
+
+div.main {
 	display: flex;
 	height: 100%;
+}
+
+div > div {
+	margin-top: auto;
+	margin-bottom: 8%;
+	margin-left: 10%;
+	font-size: 1.4em;
+	line-height: 1.5;
+	background: #191919;
+	padding: 1em;
+    transform: skew(0deg, 2deg);
+    max-width: 19rem;
 }
 
 svg {
@@ -50,15 +76,33 @@ svg {
 
 }
 
+@media (max-width: 1280px) {
+	div.main {
+		flex-direction: column;
+	}
+	svg {
+		margin: 5% auto;
+	}
+	div > div {
+		margin: 0 auto;
+	}
+}
+
 p {
-	margin-top: auto;
-	margin-bottom: 8%;
-	margin-left: 10%;
-	font-size: 1.4em;
-	line-height: 1.5;
-	background: #191919;
-	padding: 1em;
-    transform: skew(0deg, 2deg);
+	margin: 0;
+}
+
+a {
+	color: gray;
+	font-size: 1rem;
+	display: inline-block;
+	margin-top: .5rem;
+
+}
+.arrow {
+	font-size: .8rem;
+    vertical-align: middle;
+    padding-left: 2px;
 }
 
 @keyframes dot {
