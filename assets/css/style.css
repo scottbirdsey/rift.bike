@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Financier';
+  src: url('../fonts/FinancierTextWeb-Regular.eot');
+  src: url('../fonts/FinancierTextWeb-Regular.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/FinancierTextWeb-Regular.woff2') format('woff2'), 
+       url('../fonts/FinancierTextWeb-Regular.eot.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Financier';
+  src: url('../fonts/FinancierTextWeb-RegularItalic.eot');
+  src: url('../fonts/FinancierTextWeb-RegularItalic.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/FinancierTextWeb-RegularItalic.woff2') format('woff2'), 
+       url('../fonts/FinancierTextWeb-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: 'Financier';
+	src: url('../fonts/FinancierTextWeb-Bold.eot');
+  	src: url('../fonts/FinancierTextWeb-Bold.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/FinancierTextWeb-Bold.woff2') format('woff2'), 
+       url('../fonts/FinancierTextWeb-Bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 4em 10%;
+	color: #ececec;
+	font-family: "Financier";
+}
+
+div {
+	display: flex;
+	height: 100%;
+}
+
+svg {
+	margin-top: auto;
+	width: 100%;
+	max-width: 600px;
+
+}
+
+p {
+	margin-top: auto;
+	margin-bottom: 8%;
+	margin-left: 10%;
+	font-size: 1.4em;
+	line-height: 1.5;
+	background: #191919;
+	padding: 1em;
+    transform: skew(0deg, 2deg);
+}
+
+@keyframes dot {
+    0%   {transform: skew(-1deg, -1deg);}
+    25%  {transform: skew(0deg, -.5deg);}
+    50%  {transform: skew(.25deg, -.75deg);}
+    80%  {transform: skew(0deg, -.5deg);}
+    100% {transform: skew(-1deg, -1deg);}
+}
+
+@keyframes arrow {
+    0%   {transform: skew(.5deg, .5deg);}
+    40%  {transform: skew(1deg, 0deg);}
+    80%  {transform: skew(-.5deg, .4deg);}
+    100% {transform: skew(.5deg, .5deg);}
+}
+
+.st9 {
+    animation-name: dot;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.st8 {
+    animation-name: arrow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
