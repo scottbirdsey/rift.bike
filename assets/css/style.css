@@ -81,7 +81,7 @@ div.main {
 	height: 100%;
 }
 
-div > div {
+div > div:last-of-type {
 	margin-top: auto;
 	margin-bottom: 8%;
 	margin-left: 10%;
@@ -93,7 +93,7 @@ div > div {
     max-width: 20rem;
 }
 
-svg {
+div > div:first-of-type {
 	margin-top: auto;
 	width: 100%;
 	max-width: 600px;
@@ -104,10 +104,10 @@ svg {
 	div.main {
 		flex-direction: column;
 	}
-	svg {
+	div > div:first-of-type {
 		margin: 5% auto;
 	}
-	div > div {
+	div > div:last-of-type {
 		margin: 0 auto;
 	}
 }
