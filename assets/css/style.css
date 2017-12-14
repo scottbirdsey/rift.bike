@@ -46,6 +46,36 @@ body {
 	font-family: "Financier";
 }
 
+@keyframes shift {
+    0%   {background: black;}
+    40% { background: black; }
+    50%  {background: white;}
+    80% {background: black;}
+    100% {background: black;}
+}
+
+@keyframes lettershift {
+    0%   {fill: white;}
+    50%  {fill: black;}
+    100% {fill: white;}
+}
+
+.st3 {
+    animation-name: lettershift;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+body {
+    animation-name: shift;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
 div.main {
 	display: flex;
 	height: 100%;
@@ -104,30 +134,29 @@ a {
 }
 
 @keyframes dot {
-    0%   {transform: skew(-1deg, -1deg);}
-    25%  {transform: skew(0deg, .5deg);}
-    50%  {transform: skew(.25deg, -.75deg);}
-    80%  {transform: skew(-.5deg, -1.5deg);}
-    100% {transform: skew(-1deg, -1deg);}
+    0%   {transform: translate(0, 0);}
+    50%  {transform: translate(5px, 5px);}
+    100% {transform: translate(0 0);}
 }
 
 @keyframes arrow {
-    0%   {transform: skew(.5deg, .5deg);}
-    40%  {transform: skew(1.5deg, 0deg);}
-    80%  {transform: skew(-.5deg, .7deg);}
-    100% {transform: skew(.5deg, .5deg);}
+    0%   {transform: translate(0, 0);}
+    50%  {transform: translate(-8px, -8px);}
+    100% {transform: translate(0 0);}
 }
 
 .st9 {
     animation-name: dot;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    animation-delay: 3s;
 }
 
 .st8 {
     animation-name: arrow;
-    animation-duration: 6s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    animation-delay: 5s;
 }
