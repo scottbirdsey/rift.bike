@@ -150,7 +150,7 @@ a {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-delay: 3s;
+    animation-delay: 1s;
 }
 
 .st8 {
@@ -158,5 +158,5 @@ a {
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-delay: 5s;
+    animation-delay: 1s;
 }
