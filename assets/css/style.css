@@ -28,11 +28,15 @@
   font-style: normal;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 1.5rem;
 	color: #039b75;
-	margin: 0;
+}
+
+body.tmpl-home h1 {
+  font-size: 1.5rem;
+  margin: 0;
+  
 }
 
 
@@ -41,9 +45,13 @@ h1 {
 }
 
 body {
-	padding: 4em 10%;
 	color: #ececec;
 	font-family: "Financier";
+}
+
+body.tmpl-home {
+  padding: 4em 10%;
+
 }
 
 @keyframes shift {
@@ -68,7 +76,7 @@ body {
 
 }
 
-body {
+body.tmpl-home {
     animation-name: shift;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -76,13 +84,20 @@ body {
 }
 
 
-div.main {
+body.tmpl-home div.main {
 	display: flex;
 	align-items: center;
 	height: 100%;
 }
 
-div > div:last-of-type {
+body:not(.tmpl-home) div.main {
+  max-width: 680px;
+  margin: 2em 2em 2em 4em;
+  font-size: 1.3rem;
+  line-height: 1.75;
+}
+
+body.tmpl-home  div > div:last-of-type {
 	margin-top: auto;
 	margin-bottom: 8%;
 	margin-left: 10%;
@@ -92,9 +107,10 @@ div > div:last-of-type {
 	padding: 1em;
     transform: skew(0deg, 2deg);
     max-width: 20rem;
+    box-shadow: 2px 1px 0 #644da1;
 }
 
-div > div:first-of-type {
+body.tmpl-home  div > div:first-of-type {
 	margin-top: auto;
 	width: 100%;
 	max-width: 600px;
@@ -106,12 +122,12 @@ svg {
 }
 
 @media (max-width: 1280px) {
-	div.main {
+	body.tmpl-home  div.main {
 		flex-direction: column;
 	}
-	div > div:first-of-type {
+	body.tmpl-home  div > div:first-of-type {
 		margin: 5% auto;
-	}
+	body.tmpl-home  }
 	div > div:last-of-type {
 		margin: 0 auto;
 	}
