@@ -134,6 +134,10 @@ svg {
 	}
 }
 
+@media (max-width: 600px) {
+	body.tmpl-home p { font-size: .8em; }	
+}
+
 p {
 	margin: 0;
 }
