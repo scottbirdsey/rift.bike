@@ -91,12 +91,23 @@ body.tmpl-home div.main {
 	height: 100%;
 }
 
+@media (min-width: 1024px) {
+  body:not(.tmpl-home) div.main {
+	 max-width: 550px;
+    margin: 2em 2em 2em 1em;
+	}
+}
+
+@media (min-width: 1440px) {
 body:not(.tmpl-home) div.main {
   max-width: 680px;
   margin: 2em 2em 2em 4em;
   font-size: 1.3rem;
   line-height: 1.75;
 }
+}
+
+
 
 body.tmpl-home  div > div:last-of-type {
 	margin-top: auto;
@@ -190,6 +201,15 @@ body.tmpl-home  div.main a {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
+}
+
+@media (min-width: 1024px) {
+aside {	
+    position: fixed;
+    width: 302px;
+    top: 50%;
+    margin-top: -100px;
+    right: 6%;
 }
 
 @media (min-width: 1440px) {
