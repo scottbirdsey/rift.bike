@@ -96,6 +96,10 @@ p {
   line-height: 1.75;
 }
 
+body:not(.tmpl-home) div.main {
+padding: 2em;
+}
+
 @media (min-width: 1024px) {
   body:not(.tmpl-home) div.main {
 	 max-width: 550px;
