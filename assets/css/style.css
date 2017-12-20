@@ -69,7 +69,7 @@ body.tmpl-home {
     100% {fill: white;}
 }
 
-.st3 {
+.tmpl-home .st3 {
     animation-name: lettershift;
     animation-duration: 20s;
     animation-iteration-count: infinite;
