@@ -211,7 +211,7 @@ body.tmpl-home  div.main a {
 @media (min-width: 1024px) {
 aside {	
     position: fixed;
-    width: 302px;
+    width: 100%
     top: 50%;
     margin-top: -100px;
     right: 6%;
@@ -226,7 +226,7 @@ aside > * {
 aside {
 	
     position: fixed;
-    width: 300px;
+    width: 100%
     top: 50%;
     right: 0;
     left: 1000px;
