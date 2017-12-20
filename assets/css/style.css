@@ -197,7 +197,7 @@ aside {
 	
     position: fixed;
     width: 300px;
-    top: 126px;
+    top: 50%;
     right: 0;
     left: 1000px;
     margin-top: -155px;
