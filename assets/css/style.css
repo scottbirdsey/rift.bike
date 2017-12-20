@@ -191,3 +191,14 @@ body.tmpl-home  div.main a {
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
 }
+
+@media (min-width: 1440px) {
+aside {
+	
+    position: fixed;
+    width: 300px;
+    top: 126px;
+    right: 0;
+    left: 1000px;
+}
+}
