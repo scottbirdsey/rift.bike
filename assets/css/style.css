@@ -215,6 +215,11 @@ aside {
     top: 50%;
     margin-top: -100px;
     right: 6%;
+    padding-left: 750px;
+ }
+aside > * {
+	max-width: 300px;
+	}
 }
 
 @media (min-width: 1440px) {
