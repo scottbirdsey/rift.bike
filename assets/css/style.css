@@ -91,10 +91,16 @@ body.tmpl-home div.main {
 	height: 100%;
 }
 
+p {
+	
+  line-height: 1.75;
+}
+
 @media (min-width: 1024px) {
   body:not(.tmpl-home) div.main {
 	 max-width: 550px;
     margin: 2em 2em 2em 1em;
+	  font-size: 1.1rem
 	}
 }
 
@@ -103,7 +109,6 @@ body:not(.tmpl-home) div.main {
   max-width: 680px;
   margin: 2em 2em 2em 4em;
   font-size: 1.3rem;
-  line-height: 1.75;
 }
 }
 
