@@ -213,3 +213,19 @@ aside img {
 	display: block;
 	margin: 2em auto;
 }
+
+.cta {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+}
+
+.button {
+	outline: 0;
+	border: 0;
+	border-radius: 3px;
+	background: #654EA1;
+	color: white;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+}
