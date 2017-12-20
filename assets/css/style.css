@@ -47,6 +47,7 @@ body.tmpl-home h1 {
 body {
 	color: #ececec;
 	font-family: "Financier";
+	background: black;
 }
 
 body.tmpl-home {
