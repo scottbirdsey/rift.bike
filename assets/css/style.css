@@ -271,3 +271,6 @@ button {
 	padding: .5em 1em;
 	cursor: pointer;
 }
+button:hover {
+	background: #423369;
+}
