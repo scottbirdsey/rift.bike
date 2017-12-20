@@ -219,6 +219,7 @@ aside {
  }
 aside > * {
 	max-width: 300px;
+	margin: 0 auto;
 	}
 }
 
@@ -229,8 +230,8 @@ aside {
     width: 100%;
     top: 50%;
     right: 0;
-    left: 1000px;
     margin-top: -155px;
+    padding-left: 815px;
 }
 }
 
