@@ -97,7 +97,7 @@ p {
 }
 
 body:not(.tmpl-home) div.main {
-padding: 2em;
+padding: 1em;
 }
 
 @media (min-width: 1024px) {
