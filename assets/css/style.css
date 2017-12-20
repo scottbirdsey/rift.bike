@@ -237,6 +237,10 @@ aside {
     margin-top: -155px;
     padding-left: 815px;
 }
+aside > * {
+	max-width: 450px;
+	margin: 0 auto;
+	}
 }
 
 aside {
