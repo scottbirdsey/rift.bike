@@ -263,6 +263,10 @@ aside img {
 	font-family: 'Nunito', sans-serif;
 }
 
+.nav > * {
+	margin-right: .5em;
+}
+
 button {
 	outline: 0;
 	border: 0;
