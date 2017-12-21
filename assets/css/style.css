@@ -260,6 +260,7 @@ aside img {
 	position: fixed;
 	top: 1em;
 	right: 1em;
+	font-family: 'Nunito', sans-serif;
 }
 
 button {
@@ -276,3 +277,4 @@ button {
 button:hover {
 	background: #423369;
 }
+
