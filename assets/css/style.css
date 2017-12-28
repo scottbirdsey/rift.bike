@@ -97,6 +97,11 @@ body:not(.tmpl-home) div.main {
   line-height: 1.75;
 }
 
+body.tmpl-timeline div.main {
+  max-width: 1024px;
+  margin: 2em auto
+}
+
 body.tmpl-home  div > div:last-of-type {
 	margin-top: auto;
 	margin-bottom: 8%;
@@ -114,7 +119,10 @@ body.tmpl-home  div > div:first-of-type {
 	margin-top: auto;
 	width: 100%;
 	max-width: 600px;
+}
 
+body.tmpl-timeline h2 {
+  margin-bottom: 0;
 }
 
 svg {
@@ -180,4 +188,44 @@ a {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
+}
+
+.tmpl-timeline h2 + div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tmpl-timeline div ul {
+  width: 50%;
+  padding-left: 1em;
+  margin: 0;
+  padding: 1em 2em;
+  margin-bottom: 3em;
+
+}
+.tmpl-timeline .lede {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+.tmpl-timeline div ul {
+  background: #424242;
+}
+
+.tmpl-timeline div ul:before {
+  content: "Racing & Events";
+  display: block;
+  font-style: italic;
+  font-size: .9em;
+  color: gray;
+}
+
+.tmpl-timeline div ul + ul {
+  background: #2f2f2f;
+}
+
+.tmpl-timeline div ul + ul:before {
+  content: "Apparel Production & Sales";
+  display: block;
+  font-style: italic;
+  font-size: .9em;
 }
