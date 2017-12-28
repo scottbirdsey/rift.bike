@@ -91,6 +91,7 @@ body.tmpl-home div.main {
 }
 
 body:not(.tmpl-home) div.main {
+  padding: 1em;
   max-width: 680px;
   margin: 2em 2em 2em 4em;
   font-size: 1.3rem;
@@ -228,4 +229,22 @@ a {
   display: block;
   font-style: italic;
   font-size: .9em;
+}
+@media (max-width: 768px) {
+  .tmpl-timeline .lede {
+    font-size: .9em;
+  }
+  .tmpl-timeline h2 + div {
+    display: block;
+  }
+
+  .tmpl-timeline div ul {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .tmpl-timeline div ul + ul {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
 }
