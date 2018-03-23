@@ -1,0 +1,24 @@
+// Wrapper for susy-breakpoint()
+//
+// @see http://susy.readthedocs.org/en/latest/toolkit/#susy-breakpoint
+//
+// @requires {variable} name
+// @param {String} $name            - Value of a $breakpoints map.
+// @param {Number | Map} $layout    - Context (e.g. column count)
+// @param {Bool | String} $no-query - Fallback for no media queries.
+// @throws No value found for `$breakpoint`. Please make sure it is defined in `$breakpoints` map.
+// @return {String} - A media query wrapping the content added.
+
+@mixin respond-to($name, $layout: false, $no-query: $susy-media-fallback) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @include susy-breakpoint(map-get($breakpoints, $name), map-get($grids, $layout), $no-query) {
+      @content;
+    }
+  } @else {
+    // If the key doesn't exist in the map
+    @warn 'Unfortunately, no value could be retrieved from `#{$breakpoints}`. '
+        + 'Please make sure it is defined in `$breakpoints` map.';
+  }
+}

@@ -1,0 +1,44 @@
+.pg-nav-inner:after,
+.angle-white { background-image: url('png/angle-white.png'); background-repeat: no-repeat; }
+
+.carousel .prev,
+.arrow-carousel-left { background-image: url('png/arrow-carousel-left.png'); background-repeat: no-repeat; }
+
+.carousel .next,
+.arrow-carousel-right { background-image: url('png/arrow-carousel-right.png'); background-repeat: no-repeat; }
+
+.arrow-down { background-image: url('png/arrow-down.png'); background-repeat: no-repeat; }
+
+.close { background-image: url('png/close.png'); background-repeat: no-repeat; }
+
+.eyp-health { background-image: url('png/eyp-health.png'); background-repeat: no-repeat; }
+
+.logo-eyp-white { background-image: url('png/logo-eyp-white.png'); background-repeat: no-repeat; }
+
+.is-whr .site-logo,
+.logo-whr { background-image: url('png/logo-whr.png'); background-repeat: no-repeat; }
+
+.no-1 { background-image: url('png/no-1.png'); background-repeat: no-repeat; }
+
+.photomap-info a,
+.plus { background-image: url('png/plus.png'); background-repeat: no-repeat; }
+
+.pull-content:after,
+.pull-slash { background-image: url('png/pull-slash.png'); background-repeat: no-repeat; }
+
+.pull-content:before,
+.quote { background-image: url('png/quote.png'); background-repeat: no-repeat; }
+
+.search { background-image: url('png/search.png'); background-repeat: no-repeat; }
+
+.site-logo { background-image: url('png/site-logo.png'); background-repeat: no-repeat; }
+
+.social-instagram { background-image: url('png/social-instagram.png'); background-repeat: no-repeat; }
+
+.social-linkedin { background-image: url('png/social-linkedin.png'); background-repeat: no-repeat; }
+
+.social-twitter { background-image: url('png/social-twitter.png'); background-repeat: no-repeat; }
+
+.pg-top a,
+.top { background-image: url('png/top.png'); background-repeat: no-repeat; }
+

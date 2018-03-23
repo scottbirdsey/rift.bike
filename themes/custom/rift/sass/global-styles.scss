@@ -1,0 +1,14 @@
+///
+// Global styles
+//
+// Pulls together all Sass neeeded for global styles.
+///
+
+// Import core Sass common to all compiled stylesheets.
+@import 'partials/core';
+
+// Import the Sass partials containing styles that will be used on all pages.
+@import 'partials/global-styles/base';
+@import 'partials/global-styles/layouts';
+@import 'partials/global-styles/components';
+@import 'partials/global-styles/shame';

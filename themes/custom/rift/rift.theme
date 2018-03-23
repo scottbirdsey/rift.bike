@@ -1,0 +1,8 @@
+<?php
+use Drupal\image\Entity\ImageStyle;
+use Drupal\Component\Utility\Html;
+/**
+ * @file
+ * Functions to support theming in the eyp theme.
+ */
+

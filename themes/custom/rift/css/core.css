@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #FFF;
+    color: #2c3138;
+    font: normal 100%/1.5 Arial, Helvetica, sans-serif;
+    font-family: "europa";
+    display: flex;
+    flex-direction: column;
+}
+.fonts-loaded body {
+    font-family: "TheSans", Arial, Helvetica, sans-serif;
+}
+a {
+    color: inherit;
+    font-weight: 600;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+a polygon,
+a path {
+    -moz-transition: fill 0.15s;
+     -ms-transition: fill 0.15s;
+      -o-transition: fill 0.15s;
+ -webkit-transition: fill 0.15s;
+         transition: fill 0.15s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+ul {
+    margin-top: 0;
+}
+abbr,
+abbr[title] {
+    border: none;
+    cursor: help;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+figure {
+    margin: 0;
+}
+ul:last-child,
+p:last-child {
+    margin-bottom: 0;
+}
+.additional p:last-child {
+    margin-bottom: 1em;
+}
+/* Squishy images */
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+svg {
+    width: inherit;
+    height: inherit;
+}
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    p
+    right: auto;
+}
+ul li {
+    list-style: none;
+}
+/* Header */
+header {
+    background: black;
+}
+header > div {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+header > div .logo {
+    width: 120px;
+}
+
+header a { 
+    color: white;
+    display: block;
+}
+
+header .logo a {
+    line-height: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-menu {
+    order: 1;
+}
+
+/* Main */
+main > * {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+}
+
+.account-menu > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account-menu li {
+  margin: 0 .5em;
+}
+
+.account-menu {
+    font-size: .8rem;
+}
+
+.main-menu {
+    order: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+/* Layout */
+.l-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.l-grid > article {
+    width: 30%;
+    text-align: center;
+}
+
+article > a {
+    text-decoration: none;
+}
+
+article > a:hover {
+    text-decoration: underline;
+}
+
+article > h2 {
+    letter-spacing: .02em;
+}
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 1.5rem;
+    margin-top: auto;
+}
+
+footer > div {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 4rem;
+}

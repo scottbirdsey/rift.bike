@@ -1,0 +1,17 @@
+name: Rift
+type: theme
+description: Custom display templates, CSS, JS, and assets for the Rift web site.
+package: Custom
+core: 8.x
+libraries-override:
+  core/assets/vendor/normalize-css/normalize.css: false
+regions:
+  header: 'Header'
+  navigation: 'Navigation'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  subnav: 'Sector & Topic Subnav'
+  autogen_lists: 'Autogen views'
+  content_last: 'Auxiliary content'
+  footer: 'Footer'
+  search: 'Search'

@@ -1,0 +1,15 @@
+@charset 'utf-8';
+
+///
+// Core Sass
+//
+// Pull in core Sass tools that will be used in both global and library styles.
+// Do not manually add external depencies like Susy or Breakpoint here. Instead
+// use Bower: the necessary Sass will be pulled into partials/core/vendors
+// through wiredep when the build task is run.
+///
+
+@import 'core/variables';
+@import 'core/vendors';
+@import 'core/functions';
+@import 'core/mixins';

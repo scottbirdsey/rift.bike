@@ -1,0 +1,19 @@
+{
+  "name": "Liberty",
+  "version": "0.0.1",
+  "homepage": "https://www.drupal.org/project/2636658",
+  "authors": [],
+  "license": "GPLv2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "susy": "~2.2.9"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.6.1"
+  }
+}

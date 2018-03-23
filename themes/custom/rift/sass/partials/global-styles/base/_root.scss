@@ -1,0 +1,23 @@
+// Use border box sizing by default.
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+// Use browser default for font sizing: Build step converts font measurements
+// from px to rem (or em for media queries) for good accessibility.
+html, body {
+  font-size: 100%;
+}
+
+// Ensure font size doesn't increase in iOS for landscape.
+html {
+  -webkit-text-size-adjust:100%
+}
+
+// Avoid extra space on body element.
+body {
+  margin: 0;
+  padding: 0;
+}

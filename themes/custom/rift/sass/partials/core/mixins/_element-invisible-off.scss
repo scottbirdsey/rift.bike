@@ -1,0 +1,8 @@
+// Turns off the element-invisible effect.
+@mixin element-invisible-off($width: auto, $height: auto) {
+  position: static;
+  clip: auto;
+  height: $height;
+  width: $width;
+  overflow: auto;
+}

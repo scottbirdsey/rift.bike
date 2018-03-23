@@ -1,0 +1,22 @@
+global-styles:
+  version: 1.x
+  css:
+    theme:
+      css/global-styles.css: {}
+
+# Uncomment if you have JS that will be used on all pages of the site.
+#
+# global-scripts:
+#   version: 1.x
+#   js:
+#     js/global-scripts.js: {}
+
+# Uncomment when you have CSS that is used only when certain elements exist.
+# This library still needs to be attached to that element either through a
+# preprocess function or a Twig template.
+#
+# sample-library:
+#   version: 1.x
+#   css:
+#     theme:
+#       css/sample-library-styles.css: {}

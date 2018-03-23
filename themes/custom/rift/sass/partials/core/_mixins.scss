@@ -1,0 +1,18 @@
+//
+// Mixins
+//
+// Pulls in custom mixins from partials for ease of use.
+//
+// Mixins should be the primary way to duplicate rules between multiple
+// components, with the added bonus of being able to vary those rules through
+// the use of arguments. Avoid using extends to share rules as that causes
+// inconsistencies with where the styles appear within the compiled CSS. Gzip
+// generally minimizes any increases in file size from duplication of rules
+// between components with mixins.
+///
+
+@import 'mixins/clearfix';
+@import 'mixins/element-invisible';
+@import 'mixins/element-invisible-off';
+@import 'mixins/element-focusable';
+@import 'mixins/respond-to';

@@ -1,0 +1,17 @@
+///
+// Sample library
+//
+// Pulls together all Sass neeeded for a particular library.
+///
+
+// Import core Sass common to all compiled stylesheets.
+@import 'partials/core';
+
+// Include only the partials you need for this particular library stylesheet.
+// Multiple libraries may reuse the same components. If those libraries might be
+// used on the same page, consider abstracting those components into separate
+// libraries to prevent the same CSS rules from being downloaded multiple times.
+//
+// @import 'partials/library-styles/layouts/partialname';
+// @import 'partials/library-styles/components/partialname';
+// @import 'partials/library-styles/shame/partialname';
